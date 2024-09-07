@@ -1,0 +1,49 @@
+#background {
+    position: fixed;
+    inset: 0;
+     width: 100%;
+     height: 100%;
+     
+}
+
+#background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#introducao {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 30px;
+   
+}
+
+#introducao img {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 250px;
+    
+    margin-left: 33%;
+    margin-right: 50%;
+    opacity: 0.5;
+
+}
+
+#introducao img:hover {
+    transform: translateY(-5px);
+    opacity: 1;
+    border-color: aliceblue;
+    padding: 15px;
+    transition-duration: 2s;
+}
+
+#leeroy {
+    margin-left: 40%;
+    margin-right: 50px;
+    padding: 10px;
+}
